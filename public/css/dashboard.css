@@ -1,0 +1,101 @@
+
+      .list-group-item{
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        transition: all 0.45s ease-in-out;
+      }
+      .list-group-item:hover{
+        background-color: #efb509;
+      }
+      .list-group-item:hover a{
+        color: white !important;
+      }
+      .list-group-item .nav-link{
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .navbar-nav .active{
+        background-color: #efb509 !important;
+        border-top: 1px solid #f1f1f1 !important;
+        border-bottom: 1px solid #f1f1f1 !important;
+        border-left: none !important;
+        border-right: none !important;
+      }
+      .active a{
+        color: white !important;
+      }
+      .h2{
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 25px;
+      }
+      .text-heading{
+        margin: 35px 0 30px 0;
+      }
+      .h2{
+        position: relative;
+        padding-bottom: 15px;
+        
+      }
+      .h2::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background-color: #efb509 !important;
+      }
+      .text-cont{
+        font-size: 16px;
+        line-height: 26px;
+        color: #444444;
+        font-weight: 300;
+        padding: 0 0 10px;
+        font-style: normal;
+      }
+      .mb-35{
+        margin-bottom: 35px;
+      }
+      .ask p i{
+        color: #efb509 !important;
+        margin-right: 10px !important;
+        font-size: 17px !important;
+        font-weight: 900 !important;
+      }
+      .secondary-bg-color{
+        background-color: #efb509;
+      }
+      .btn-dark:hover{
+        color: black;
+        border-color: #002c54 !important;
+        background-color: transparent !important;
+      }
+      .btn-dark i{
+        margin-right: 10px;
+      }
+      .list-inline-item{
+        height: 35px;
+        width: 35px;
+        line-height: 36px;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #002c54;
+        transition: all 0.45s ease-in-out;
+      }
+      .list-inline-item:hover{
+        background-color: #efb509;
+      }
+      .text-16{
+        font-size: 16px;
+      }
+      .text-18{
+        font-size: 18px;
+      }
+      .list-text{
+        margin-bottom: 15px !important;
+        line-height: 1.188em;
+        font-size: 0.875;
+        font-weight: normal;
+      }
